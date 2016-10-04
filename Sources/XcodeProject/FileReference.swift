@@ -12,7 +12,8 @@ struct FileReference {
     }
     
     public let identifier: String
-    public let lastKnownFileType: String
+    public let explicitFileType: String?
+    public let lastKnownFileType: String?
     public let includeInIndex: Int
     public let path: String
     public let sourceTree: String

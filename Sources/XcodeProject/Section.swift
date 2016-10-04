@@ -8,6 +8,7 @@
 
 public enum Section {
     case buildFile
+    case containerItemProxy
     case fileReference
     case frameworksBuildPhase
     case group
@@ -15,6 +16,7 @@ public enum Section {
     case project
     case resourcesBuildPhase
     case sourcesBuildPhase
+    case targetDependency
     case variantGroup
     case buildConfiguration
     case configurationList
@@ -26,6 +28,8 @@ public enum Section {
         switch self {
         case .buildFile:
             return "\(pbxPrefix)BuildFile"
+        case .containerItemProxy:
+            return "\(pbxPrefix)ContainerItemProxy"
         case .fileReference:
             return "\(pbxPrefix)FileReference"
         case .frameworksBuildPhase:
@@ -40,6 +44,8 @@ public enum Section {
             return "\(pbxPrefix)ResourcesBuildPhase"
         case .sourcesBuildPhase:
             return "\(pbxPrefix)SourcesBuildPhase"
+        case .targetDependency:
+            return "\(pbxPrefix)TargetDependency"
         case .variantGroup:
             return "\(pbxPrefix)VariantGroup"
         case .buildConfiguration:

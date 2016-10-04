@@ -36,4 +36,6 @@ struct TargetAttribute {
     public let identifier: String
     public let createdOnToolsVersion: String
     public let provisioningStyle: String
+    public let developmentTeam: String?
+    public let testTargetID: String?
 }
