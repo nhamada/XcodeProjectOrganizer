@@ -1,0 +1,1170 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35A175F31DAD2BC00042FEC2 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A175F21DAD2BC00042FEC2 /* FileManager+Extension.swift */; };
+		_LinkFileRef_ColorHelperToolkit_via_ColorHelperToolkitTests /* ColorHelperToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_ColorHelperToolkit" /* ColorHelperToolkit.framework */; };
+		_LinkFileRef_ColorHelperToolkit_via_DevHelperToolkit /* ColorHelperToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_ColorHelperToolkit" /* ColorHelperToolkit.framework */; };
+		_LinkFileRef_FoundationExtensions_via_DevHelperToolkit /* FoundationExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_FoundationExtensions" /* FoundationExtensions.framework */; };
+		_LinkFileRef_FoundationExtensions_via_StoryboardHelperToolkit /* FoundationExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_FoundationExtensions" /* FoundationExtensions.framework */; };
+		_LinkFileRef_FoundationExtensions_via_StoryboardHelperToolkitTests /* FoundationExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_FoundationExtensions" /* FoundationExtensions.framework */; };
+		_LinkFileRef_ImageHelperToolkit_via_DevHelperToolkit /* ImageHelperToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_ImageHelperToolkit" /* ImageHelperToolkit.framework */; };
+		_LinkFileRef_ImageHelperToolkit_via_ImageHelperToolkitTests /* ImageHelperToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_ImageHelperToolkit" /* ImageHelperToolkit.framework */; };
+		_LinkFileRef_JSONHelperToolkit_via_DevHelperToolkit /* JSONHelperToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSONHelperToolkit" /* JSONHelperToolkit.framework */; };
+		_LinkFileRef_JSONHelperToolkit_via_JSONHelperToolkitTests /* JSONHelperToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_JSONHelperToolkit" /* JSONHelperToolkit.framework */; };
+		_LinkFileRef_StoryboardHelperToolkit_via_DevHelperToolkit /* StoryboardHelperToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StoryboardHelperToolkit" /* StoryboardHelperToolkit.framework */; };
+		_LinkFileRef_StoryboardHelperToolkit_via_StoryboardHelperToolkitTests /* StoryboardHelperToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StoryboardHelperToolkit" /* StoryboardHelperToolkit.framework */; };
+		__src_cc_ref_Sources/ColorHelperToolkit/CSVParser.swift /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/ColorHelperToolkit/CSVParser.swift /* CSVParser.swift */; };
+		__src_cc_ref_Sources/ColorHelperToolkit/ColorDefinition.swift /* ColorDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/ColorHelperToolkit/ColorDefinition.swift /* ColorDefinition.swift */; };
+		__src_cc_ref_Sources/ColorHelperToolkit/ColorHelperToolkit.swift /* ColorHelperToolkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/ColorHelperToolkit/ColorHelperToolkit.swift /* ColorHelperToolkit.swift */; };
+		__src_cc_ref_Sources/ColorHelperToolkit/Configuration.swift /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/ColorHelperToolkit/Configuration.swift /* Configuration.swift */; };
+		"__src_cc_ref_Sources/ColorHelperToolkit/Dictionary+Extension.swift" /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Sources/ColorHelperToolkit/Dictionary+Extension.swift" /* Dictionary+Extension.swift */; };
+		__src_cc_ref_Sources/ColorHelperToolkit/FileType.swift /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/ColorHelperToolkit/FileType.swift /* FileType.swift */; };
+		"__src_cc_ref_Sources/ColorHelperToolkit/Foundation+Color.swift" /* Foundation+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Sources/ColorHelperToolkit/Foundation+Color.swift" /* Foundation+Color.swift */; };
+		__src_cc_ref_Sources/ColorHelperToolkit/JSONParser.swift /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/ColorHelperToolkit/JSONParser.swift /* JSONParser.swift */; };
+		__src_cc_ref_Sources/ColorHelperToolkit/Parser.swift /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/ColorHelperToolkit/Parser.swift /* Parser.swift */; };
+		"__src_cc_ref_Sources/ColorHelperToolkit/URL+Extension.swift" /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Sources/ColorHelperToolkit/URL+Extension.swift" /* URL+Extension.swift */; };
+		__src_cc_ref_Sources/DevHelperToolkit/DevHelperToolkit.swift /* DevHelperToolkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/DevHelperToolkit/DevHelperToolkit.swift /* DevHelperToolkit.swift */; };
+		__src_cc_ref_Sources/DevHelperToolkit/ToolkitOptions.swift /* ToolkitOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/DevHelperToolkit/ToolkitOptions.swift /* ToolkitOptions.swift */; };
+		__src_cc_ref_Sources/DevHelperToolkit/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/DevHelperToolkit/main.swift /* main.swift */; };
+		"__src_cc_ref_Sources/FoundationExtensions/String+Extension.swift" /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Sources/FoundationExtensions/String+Extension.swift" /* String+Extension.swift */; };
+		__src_cc_ref_Sources/ImageHelperToolkit/Configuration.swift /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/ImageHelperToolkit/Configuration.swift /* Configuration.swift */; };
+		__src_cc_ref_Sources/ImageHelperToolkit/ImageHelperToolkit.swift /* ImageHelperToolkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/ImageHelperToolkit/ImageHelperToolkit.swift /* ImageHelperToolkit.swift */; };
+		"__src_cc_ref_Sources/ImageHelperToolkit/URL+Extension.swift" /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Sources/ImageHelperToolkit/URL+Extension.swift" /* URL+Extension.swift */; };
+		"__src_cc_ref_Sources/JSONHelperToolkit/Array+Extension.swift" /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Sources/JSONHelperToolkit/Array+Extension.swift" /* Array+Extension.swift */; };
+		__src_cc_ref_Sources/JSONHelperToolkit/Configuration.swift /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/JSONHelperToolkit/Configuration.swift /* Configuration.swift */; };
+		"__src_cc_ref_Sources/JSONHelperToolkit/Dictionary+Conversion.swift" /* Dictionary+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Sources/JSONHelperToolkit/Dictionary+Conversion.swift" /* Dictionary+Conversion.swift */; };
+		"__src_cc_ref_Sources/JSONHelperToolkit/Foundation+Types.swift" /* Foundation+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Sources/JSONHelperToolkit/Foundation+Types.swift" /* Foundation+Types.swift */; };
+		__src_cc_ref_Sources/JSONHelperToolkit/JSONHelperToolkit.swift /* JSONHelperToolkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/JSONHelperToolkit/JSONHelperToolkit.swift /* JSONHelperToolkit.swift */; };
+		__src_cc_ref_Sources/JSONHelperToolkit/ModelDefinition.swift /* ModelDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/JSONHelperToolkit/ModelDefinition.swift /* ModelDefinition.swift */; };
+		__src_cc_ref_Sources/StoryboardHelperToolkit/Configuration.swift /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/StoryboardHelperToolkit/Configuration.swift /* Configuration.swift */; };
+		__src_cc_ref_Sources/StoryboardHelperToolkit/Storyboard.swift /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/StoryboardHelperToolkit/Storyboard.swift /* Storyboard.swift */; };
+		__src_cc_ref_Sources/StoryboardHelperToolkit/StoryboardHelperToolkit.swift /* StoryboardHelperToolkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/StoryboardHelperToolkit/StoryboardHelperToolkit.swift /* StoryboardHelperToolkit.swift */; };
+		__src_cc_ref_Sources/StoryboardHelperToolkit/StoryboardParser.swift /* StoryboardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/StoryboardHelperToolkit/StoryboardParser.swift /* StoryboardParser.swift */; };
+		__src_cc_ref_Tests/ColorHelperToolkitTests/ColorHelperToolkitTests.swift /* ColorHelperToolkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/ColorHelperToolkitTests/ColorHelperToolkitTests.swift /* ColorHelperToolkitTests.swift */; };
+		__src_cc_ref_Tests/ImageHelperToolkitTests/ImageHelpertToolkitTests.swift /* ImageHelpertToolkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/ImageHelperToolkitTests/ImageHelpertToolkitTests.swift /* ImageHelpertToolkitTests.swift */; };
+		__src_cc_ref_Tests/JSONHelperToolkitTests/JSONHelperToolkitTests.swift /* JSONHelperToolkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/JSONHelperToolkitTests/JSONHelperToolkitTests.swift /* JSONHelperToolkitTests.swift */; };
+		__src_cc_ref_Tests/StoryboardHelperToolkitTests/StoryboardHelperToolkitTests.swift /* StoryboardHelperToolkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/StoryboardHelperToolkitTests/StoryboardHelperToolkitTests.swift /* StoryboardHelperToolkitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35A175ED1DAD2B8F0042FEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_JSONHelperToolkit";
+			remoteInfo = JSONHelperToolkit;
+		};
+		35A175EE1DAD2B8F0042FEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_ColorHelperToolkit";
+			remoteInfo = ColorHelperToolkit;
+		};
+		35A175EF1DAD2B8F0042FEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_ImageHelperToolkit";
+			remoteInfo = ImageHelperToolkit;
+		};
+		35A175F01DAD2B8F0042FEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_StoryboardHelperToolkit";
+			remoteInfo = StoryboardHelperToolkit;
+		};
+		35A175F11DAD2B8F0042FEC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_FoundationExtensions";
+			remoteInfo = FoundationExtensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35A175F21DAD2BC00042FEC2 /* FileManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FileManager+Extension.swift"; path = "Sources/FoundationExtensions/FileManager+Extension.swift"; sourceTree = "<group>"; };
+		__PBXFileRef_DevHelperToolkit.xcodeproj/Configs/Debug.xcconfig /* DevHelperToolkit.xcodeproj/Configs/Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DevHelperToolkit.xcodeproj/Configs/Debug.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_DevHelperToolkit.xcodeproj/Configs/Project.xcconfig /* DevHelperToolkit.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DevHelperToolkit.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_DevHelperToolkit.xcodeproj/Configs/Release.xcconfig /* DevHelperToolkit.xcodeproj/Configs/Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DevHelperToolkit.xcodeproj/Configs/Release.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Resources /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/ColorHelperToolkit/CSVParser.swift /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CSVParser.swift; path = Sources/ColorHelperToolkit/CSVParser.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/ColorHelperToolkit/ColorDefinition.swift /* ColorDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorDefinition.swift; path = Sources/ColorHelperToolkit/ColorDefinition.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/ColorHelperToolkit/ColorHelperToolkit.swift /* ColorHelperToolkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorHelperToolkit.swift; path = Sources/ColorHelperToolkit/ColorHelperToolkit.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/ColorHelperToolkit/Configuration.swift /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/ColorHelperToolkit/Configuration.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Sources/ColorHelperToolkit/Dictionary+Extension.swift" /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Dictionary+Extension.swift"; path = "Sources/ColorHelperToolkit/Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/ColorHelperToolkit/FileType.swift /* FileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FileType.swift; path = Sources/ColorHelperToolkit/FileType.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Sources/ColorHelperToolkit/Foundation+Color.swift" /* Foundation+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Foundation+Color.swift"; path = "Sources/ColorHelperToolkit/Foundation+Color.swift"; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/ColorHelperToolkit/JSONParser.swift /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JSONParser.swift; path = Sources/ColorHelperToolkit/JSONParser.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/ColorHelperToolkit/Parser.swift /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/ColorHelperToolkit/Parser.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Sources/ColorHelperToolkit/URL+Extension.swift" /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "URL+Extension.swift"; path = "Sources/ColorHelperToolkit/URL+Extension.swift"; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/DevHelperToolkit/DevHelperToolkit.swift /* DevHelperToolkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DevHelperToolkit.swift; path = Sources/DevHelperToolkit/DevHelperToolkit.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/DevHelperToolkit/ToolkitOptions.swift /* ToolkitOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToolkitOptions.swift; path = Sources/DevHelperToolkit/ToolkitOptions.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/DevHelperToolkit/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = Sources/DevHelperToolkit/main.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Sources/FoundationExtensions/String+Extension.swift" /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/FoundationExtensions/String+Extension.swift"; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/ImageHelperToolkit/Configuration.swift /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/ImageHelperToolkit/Configuration.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/ImageHelperToolkit/ImageHelperToolkit.swift /* ImageHelperToolkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageHelperToolkit.swift; path = Sources/ImageHelperToolkit/ImageHelperToolkit.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Sources/ImageHelperToolkit/URL+Extension.swift" /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "URL+Extension.swift"; path = "Sources/ImageHelperToolkit/URL+Extension.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Sources/JSONHelperToolkit/Array+Extension.swift" /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/JSONHelperToolkit/Array+Extension.swift"; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/JSONHelperToolkit/Configuration.swift /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/JSONHelperToolkit/Configuration.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Sources/JSONHelperToolkit/Dictionary+Conversion.swift" /* Dictionary+Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Dictionary+Conversion.swift"; path = "Sources/JSONHelperToolkit/Dictionary+Conversion.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Sources/JSONHelperToolkit/Foundation+Types.swift" /* Foundation+Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Foundation+Types.swift"; path = "Sources/JSONHelperToolkit/Foundation+Types.swift"; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/JSONHelperToolkit/JSONHelperToolkit.swift /* JSONHelperToolkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JSONHelperToolkit.swift; path = Sources/JSONHelperToolkit/JSONHelperToolkit.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/JSONHelperToolkit/ModelDefinition.swift /* ModelDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelDefinition.swift; path = Sources/JSONHelperToolkit/ModelDefinition.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/StoryboardHelperToolkit/Configuration.swift /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/StoryboardHelperToolkit/Configuration.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/StoryboardHelperToolkit/Storyboard.swift /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Storyboard.swift; path = Sources/StoryboardHelperToolkit/Storyboard.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/StoryboardHelperToolkit/StoryboardHelperToolkit.swift /* StoryboardHelperToolkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoryboardHelperToolkit.swift; path = Sources/StoryboardHelperToolkit/StoryboardHelperToolkit.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/StoryboardHelperToolkit/StoryboardParser.swift /* StoryboardParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoryboardParser.swift; path = Sources/StoryboardHelperToolkit/StoryboardParser.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/ColorHelperToolkitTests/ColorHelperToolkitTests.swift /* ColorHelperToolkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorHelperToolkitTests.swift; path = Tests/ColorHelperToolkitTests/ColorHelperToolkitTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/ImageHelperToolkitTests/ImageHelpertToolkitTests.swift /* ImageHelpertToolkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageHelpertToolkitTests.swift; path = Tests/ImageHelperToolkitTests/ImageHelpertToolkitTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/JSONHelperToolkitTests/JSONHelperToolkitTests.swift /* JSONHelperToolkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JSONHelperToolkitTests.swift; path = Tests/JSONHelperToolkitTests/JSONHelperToolkitTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/StoryboardHelperToolkitTests/StoryboardHelperToolkitTests.swift /* StoryboardHelperToolkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoryboardHelperToolkitTests.swift; path = Tests/StoryboardHelperToolkitTests/StoryboardHelperToolkitTests.swift; sourceTree = "<group>"; };
+		"_____Product_ColorHelperToolkit" /* ColorHelperToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ColorHelperToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ColorHelperToolkitTests" /* ColorHelperToolkitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ColorHelperToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_DevHelperToolkit" /* DevHelperToolkit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DevHelperToolkit; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_FoundationExtensions" /* FoundationExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FoundationExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ImageHelperToolkit" /* ImageHelperToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ImageHelperToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ImageHelperToolkitTests" /* ImageHelperToolkitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ImageHelperToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_JSONHelperToolkit" /* JSONHelperToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSONHelperToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_JSONHelperToolkitTests" /* JSONHelperToolkitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSONHelperToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_StoryboardHelperToolkit" /* StoryboardHelperToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StoryboardHelperToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_StoryboardHelperToolkitTests" /* StoryboardHelperToolkitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoryboardHelperToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_ColorHelperToolkit" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_ColorHelperToolkitTests" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_ColorHelperToolkit_via_ColorHelperToolkitTests /* ColorHelperToolkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_DevHelperToolkit" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_JSONHelperToolkit_via_DevHelperToolkit /* JSONHelperToolkit.framework in Frameworks */,
+				_LinkFileRef_ColorHelperToolkit_via_DevHelperToolkit /* ColorHelperToolkit.framework in Frameworks */,
+				_LinkFileRef_ImageHelperToolkit_via_DevHelperToolkit /* ImageHelperToolkit.framework in Frameworks */,
+				_LinkFileRef_FoundationExtensions_via_DevHelperToolkit /* FoundationExtensions.framework in Frameworks */,
+				_LinkFileRef_StoryboardHelperToolkit_via_DevHelperToolkit /* StoryboardHelperToolkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_FoundationExtensions" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_ImageHelperToolkit" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_ImageHelperToolkitTests" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_ImageHelperToolkit_via_ImageHelperToolkitTests /* ImageHelperToolkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_JSONHelperToolkit" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_JSONHelperToolkitTests" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_JSONHelperToolkit_via_JSONHelperToolkitTests /* JSONHelperToolkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_StoryboardHelperToolkit" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_FoundationExtensions_via_StoryboardHelperToolkit /* FoundationExtensions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_StoryboardHelperToolkitTests" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_FoundationExtensions_via_StoryboardHelperToolkitTests /* FoundationExtensions.framework in Frameworks */,
+				_LinkFileRef_StoryboardHelperToolkit_via_StoryboardHelperToolkitTests /* StoryboardHelperToolkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		TestProducts_ /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_ColorHelperToolkitTests" /* ColorHelperToolkitTests.xctest */,
+				"_____Product_ImageHelperToolkitTests" /* ImageHelperToolkitTests.xctest */,
+				"_____Product_JSONHelperToolkitTests" /* JSONHelperToolkitTests.xctest */,
+				"_____Product_StoryboardHelperToolkitTests" /* StoryboardHelperToolkitTests.xctest */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				__PBXFileRef_Resources /* Resources */,
+				"_______Tests_" /* Tests */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				TestProducts_ /* Tests */,
+				"_____Product_ColorHelperToolkit" /* ColorHelperToolkit.framework */,
+				"_____Product_DevHelperToolkit" /* DevHelperToolkit */,
+				"_____Product_FoundationExtensions" /* FoundationExtensions.framework */,
+				"_____Product_ImageHelperToolkit" /* ImageHelperToolkit.framework */,
+				"_____Product_JSONHelperToolkit" /* JSONHelperToolkit.framework */,
+				"_____Product_StoryboardHelperToolkit" /* StoryboardHelperToolkit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_DevHelperToolkit.xcodeproj/Configs/Project.xcconfig /* DevHelperToolkit.xcodeproj/Configs/Project.xcconfig */,
+				__PBXFileRef_DevHelperToolkit.xcodeproj/Configs/Debug.xcconfig /* DevHelperToolkit.xcodeproj/Configs/Debug.xcconfig */,
+				__PBXFileRef_DevHelperToolkit.xcodeproj/Configs/Release.xcconfig /* DevHelperToolkit.xcodeproj/Configs/Release.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_ColorHelperToolkit" /* ColorHelperToolkit */,
+				"_______Group_DevHelperToolkit" /* DevHelperToolkit */,
+				"_______Group_FoundationExtensions" /* FoundationExtensions */,
+				"_______Group_ImageHelperToolkit" /* ImageHelperToolkit */,
+				"_______Group_JSONHelperToolkit" /* JSONHelperToolkit */,
+				"_______Group_StoryboardHelperToolkit" /* StoryboardHelperToolkit */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_ColorHelperToolkit" /* ColorHelperToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/ColorHelperToolkit/ColorDefinition.swift /* ColorDefinition.swift */,
+				__PBXFileRef_Sources/ColorHelperToolkit/ColorHelperToolkit.swift /* ColorHelperToolkit.swift */,
+				__PBXFileRef_Sources/ColorHelperToolkit/Configuration.swift /* Configuration.swift */,
+				__PBXFileRef_Sources/ColorHelperToolkit/CSVParser.swift /* CSVParser.swift */,
+				"__PBXFileRef_Sources/ColorHelperToolkit/Dictionary+Extension.swift" /* Dictionary+Extension.swift */,
+				__PBXFileRef_Sources/ColorHelperToolkit/FileType.swift /* FileType.swift */,
+				"__PBXFileRef_Sources/ColorHelperToolkit/Foundation+Color.swift" /* Foundation+Color.swift */,
+				__PBXFileRef_Sources/ColorHelperToolkit/JSONParser.swift /* JSONParser.swift */,
+				__PBXFileRef_Sources/ColorHelperToolkit/Parser.swift /* Parser.swift */,
+				"__PBXFileRef_Sources/ColorHelperToolkit/URL+Extension.swift" /* URL+Extension.swift */,
+			);
+			name = ColorHelperToolkit;
+			sourceTree = "<group>";
+		};
+		"_______Group_ColorHelperToolkitTests" /* ColorHelperToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Tests/ColorHelperToolkitTests/ColorHelperToolkitTests.swift /* ColorHelperToolkitTests.swift */,
+			);
+			name = ColorHelperToolkitTests;
+			sourceTree = "<group>";
+		};
+		"_______Group_DevHelperToolkit" /* DevHelperToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/DevHelperToolkit/DevHelperToolkit.swift /* DevHelperToolkit.swift */,
+				__PBXFileRef_Sources/DevHelperToolkit/main.swift /* main.swift */,
+				__PBXFileRef_Sources/DevHelperToolkit/ToolkitOptions.swift /* ToolkitOptions.swift */,
+			);
+			name = DevHelperToolkit;
+			sourceTree = "<group>";
+		};
+		"_______Group_FoundationExtensions" /* FoundationExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Sources/FoundationExtensions/String+Extension.swift" /* String+Extension.swift */,
+				35A175F21DAD2BC00042FEC2 /* FileManager+Extension.swift */,
+			);
+			name = FoundationExtensions;
+			sourceTree = "<group>";
+		};
+		"_______Group_ImageHelperToolkit" /* ImageHelperToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/ImageHelperToolkit/Configuration.swift /* Configuration.swift */,
+				__PBXFileRef_Sources/ImageHelperToolkit/ImageHelperToolkit.swift /* ImageHelperToolkit.swift */,
+				"__PBXFileRef_Sources/ImageHelperToolkit/URL+Extension.swift" /* URL+Extension.swift */,
+			);
+			name = ImageHelperToolkit;
+			sourceTree = "<group>";
+		};
+		"_______Group_ImageHelperToolkitTests" /* ImageHelperToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Tests/ImageHelperToolkitTests/ImageHelpertToolkitTests.swift /* ImageHelpertToolkitTests.swift */,
+			);
+			name = ImageHelperToolkitTests;
+			sourceTree = "<group>";
+		};
+		"_______Group_JSONHelperToolkit" /* JSONHelperToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Sources/JSONHelperToolkit/Array+Extension.swift" /* Array+Extension.swift */,
+				__PBXFileRef_Sources/JSONHelperToolkit/Configuration.swift /* Configuration.swift */,
+				"__PBXFileRef_Sources/JSONHelperToolkit/Dictionary+Conversion.swift" /* Dictionary+Conversion.swift */,
+				"__PBXFileRef_Sources/JSONHelperToolkit/Foundation+Types.swift" /* Foundation+Types.swift */,
+				__PBXFileRef_Sources/JSONHelperToolkit/JSONHelperToolkit.swift /* JSONHelperToolkit.swift */,
+				__PBXFileRef_Sources/JSONHelperToolkit/ModelDefinition.swift /* ModelDefinition.swift */,
+			);
+			name = JSONHelperToolkit;
+			sourceTree = "<group>";
+		};
+		"_______Group_JSONHelperToolkitTests" /* JSONHelperToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Tests/JSONHelperToolkitTests/JSONHelperToolkitTests.swift /* JSONHelperToolkitTests.swift */,
+			);
+			name = JSONHelperToolkitTests;
+			sourceTree = "<group>";
+		};
+		"_______Group_StoryboardHelperToolkit" /* StoryboardHelperToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/StoryboardHelperToolkit/Configuration.swift /* Configuration.swift */,
+				__PBXFileRef_Sources/StoryboardHelperToolkit/Storyboard.swift /* Storyboard.swift */,
+				__PBXFileRef_Sources/StoryboardHelperToolkit/StoryboardHelperToolkit.swift /* StoryboardHelperToolkit.swift */,
+				__PBXFileRef_Sources/StoryboardHelperToolkit/StoryboardParser.swift /* StoryboardParser.swift */,
+			);
+			name = StoryboardHelperToolkit;
+			sourceTree = "<group>";
+		};
+		"_______Group_StoryboardHelperToolkitTests" /* StoryboardHelperToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Tests/StoryboardHelperToolkitTests/StoryboardHelperToolkitTests.swift /* StoryboardHelperToolkitTests.swift */,
+			);
+			name = StoryboardHelperToolkitTests;
+			sourceTree = "<group>";
+		};
+		"_______Tests_" /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_ColorHelperToolkitTests" /* ColorHelperToolkitTests */,
+				"_______Group_ImageHelperToolkitTests" /* ImageHelperToolkitTests */,
+				"_______Group_JSONHelperToolkitTests" /* JSONHelperToolkitTests */,
+				"_______Group_StoryboardHelperToolkitTests" /* StoryboardHelperToolkitTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_ColorHelperToolkit" /* ColorHelperToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_ColorHelperToolkit" /* Build configuration list for PBXNativeTarget "ColorHelperToolkit" */;
+			buildPhases = (
+				CompilePhase_ColorHelperToolkit /* Sources */,
+				"___LinkPhase_ColorHelperToolkit" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorHelperToolkit;
+			productName = ColorHelperToolkit;
+			productReference = "_____Product_ColorHelperToolkit" /* ColorHelperToolkit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_ColorHelperToolkitTests" /* ColorHelperToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_ColorHelperToolkitTests" /* Build configuration list for PBXNativeTarget "ColorHelperToolkitTests" */;
+			buildPhases = (
+				CompilePhase_ColorHelperToolkitTests /* Sources */,
+				"___LinkPhase_ColorHelperToolkitTests" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_ColorHelperToolkit /* PBXTargetDependency */,
+			);
+			name = ColorHelperToolkitTests;
+			productName = ColorHelperToolkitTests;
+			productReference = "_____Product_ColorHelperToolkitTests" /* ColorHelperToolkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"______Target_DevHelperToolkit" /* DevHelperToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_DevHelperToolkit" /* Build configuration list for PBXNativeTarget "DevHelperToolkit" */;
+			buildPhases = (
+				CompilePhase_DevHelperToolkit /* Sources */,
+				"___LinkPhase_DevHelperToolkit" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_JSONHelperToolkit /* PBXTargetDependency */,
+				__Dependency_ColorHelperToolkit /* PBXTargetDependency */,
+				__Dependency_ImageHelperToolkit /* PBXTargetDependency */,
+				__Dependency_StoryboardHelperToolkit /* PBXTargetDependency */,
+			);
+			name = DevHelperToolkit;
+			productName = DevHelperToolkit;
+			productReference = "_____Product_DevHelperToolkit" /* DevHelperToolkit */;
+			productType = "com.apple.product-type.tool";
+		};
+		"______Target_FoundationExtensions" /* FoundationExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_FoundationExtensions" /* Build configuration list for PBXNativeTarget "FoundationExtensions" */;
+			buildPhases = (
+				CompilePhase_FoundationExtensions /* Sources */,
+				"___LinkPhase_FoundationExtensions" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoundationExtensions;
+			productName = FoundationExtensions;
+			productReference = "_____Product_FoundationExtensions" /* FoundationExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_ImageHelperToolkit" /* ImageHelperToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_ImageHelperToolkit" /* Build configuration list for PBXNativeTarget "ImageHelperToolkit" */;
+			buildPhases = (
+				CompilePhase_ImageHelperToolkit /* Sources */,
+				"___LinkPhase_ImageHelperToolkit" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageHelperToolkit;
+			productName = ImageHelperToolkit;
+			productReference = "_____Product_ImageHelperToolkit" /* ImageHelperToolkit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_ImageHelperToolkitTests" /* ImageHelperToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_ImageHelperToolkitTests" /* Build configuration list for PBXNativeTarget "ImageHelperToolkitTests" */;
+			buildPhases = (
+				CompilePhase_ImageHelperToolkitTests /* Sources */,
+				"___LinkPhase_ImageHelperToolkitTests" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_ImageHelperToolkit /* PBXTargetDependency */,
+			);
+			name = ImageHelperToolkitTests;
+			productName = ImageHelperToolkitTests;
+			productReference = "_____Product_ImageHelperToolkitTests" /* ImageHelperToolkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"______Target_JSONHelperToolkit" /* JSONHelperToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_JSONHelperToolkit" /* Build configuration list for PBXNativeTarget "JSONHelperToolkit" */;
+			buildPhases = (
+				CompilePhase_JSONHelperToolkit /* Sources */,
+				"___LinkPhase_JSONHelperToolkit" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONHelperToolkit;
+			productName = JSONHelperToolkit;
+			productReference = "_____Product_JSONHelperToolkit" /* JSONHelperToolkit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_JSONHelperToolkitTests" /* JSONHelperToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_JSONHelperToolkitTests" /* Build configuration list for PBXNativeTarget "JSONHelperToolkitTests" */;
+			buildPhases = (
+				CompilePhase_JSONHelperToolkitTests /* Sources */,
+				"___LinkPhase_JSONHelperToolkitTests" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_JSONHelperToolkit /* PBXTargetDependency */,
+			);
+			name = JSONHelperToolkitTests;
+			productName = JSONHelperToolkitTests;
+			productReference = "_____Product_JSONHelperToolkitTests" /* JSONHelperToolkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"______Target_StoryboardHelperToolkit" /* StoryboardHelperToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_StoryboardHelperToolkit" /* Build configuration list for PBXNativeTarget "StoryboardHelperToolkit" */;
+			buildPhases = (
+				CompilePhase_StoryboardHelperToolkit /* Sources */,
+				"___LinkPhase_StoryboardHelperToolkit" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_FoundationExtensions /* PBXTargetDependency */,
+			);
+			name = StoryboardHelperToolkit;
+			productName = StoryboardHelperToolkit;
+			productReference = "_____Product_StoryboardHelperToolkit" /* StoryboardHelperToolkit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_StoryboardHelperToolkitTests" /* StoryboardHelperToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_StoryboardHelperToolkitTests" /* Build configuration list for PBXNativeTarget "StoryboardHelperToolkitTests" */;
+			buildPhases = (
+				CompilePhase_StoryboardHelperToolkitTests /* Sources */,
+				"___LinkPhase_StoryboardHelperToolkitTests" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_StoryboardHelperToolkit /* PBXTargetDependency */,
+			);
+			name = StoryboardHelperToolkitTests;
+			productName = StoryboardHelperToolkitTests;
+			productReference = "_____Product_StoryboardHelperToolkitTests" /* StoryboardHelperToolkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "DevHelperToolkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_ColorHelperToolkit" /* ColorHelperToolkit */,
+				"______Target_DevHelperToolkit" /* DevHelperToolkit */,
+				"______Target_FoundationExtensions" /* FoundationExtensions */,
+				"______Target_ImageHelperToolkit" /* ImageHelperToolkit */,
+				"______Target_JSONHelperToolkit" /* JSONHelperToolkit */,
+				"______Target_StoryboardHelperToolkit" /* StoryboardHelperToolkit */,
+				"______Target_ColorHelperToolkitTests" /* ColorHelperToolkitTests */,
+				"______Target_ImageHelperToolkitTests" /* ImageHelperToolkitTests */,
+				"______Target_JSONHelperToolkitTests" /* JSONHelperToolkitTests */,
+				"______Target_StoryboardHelperToolkitTests" /* StoryboardHelperToolkitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_ColorHelperToolkit /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				35A175F31DAD2BC00042FEC2 /* FileManager+Extension.swift in Sources */,
+				__src_cc_ref_Sources/ColorHelperToolkit/ColorDefinition.swift /* ColorDefinition.swift in Sources */,
+				__src_cc_ref_Sources/ColorHelperToolkit/ColorHelperToolkit.swift /* ColorHelperToolkit.swift in Sources */,
+				__src_cc_ref_Sources/ColorHelperToolkit/Configuration.swift /* Configuration.swift in Sources */,
+				__src_cc_ref_Sources/ColorHelperToolkit/CSVParser.swift /* CSVParser.swift in Sources */,
+				"__src_cc_ref_Sources/ColorHelperToolkit/Dictionary+Extension.swift" /* Dictionary+Extension.swift in Sources */,
+				__src_cc_ref_Sources/ColorHelperToolkit/FileType.swift /* FileType.swift in Sources */,
+				"__src_cc_ref_Sources/ColorHelperToolkit/Foundation+Color.swift" /* Foundation+Color.swift in Sources */,
+				__src_cc_ref_Sources/ColorHelperToolkit/JSONParser.swift /* JSONParser.swift in Sources */,
+				__src_cc_ref_Sources/ColorHelperToolkit/Parser.swift /* Parser.swift in Sources */,
+				"__src_cc_ref_Sources/ColorHelperToolkit/URL+Extension.swift" /* URL+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_ColorHelperToolkitTests /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Tests/ColorHelperToolkitTests/ColorHelperToolkitTests.swift /* ColorHelperToolkitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_DevHelperToolkit /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/DevHelperToolkit/DevHelperToolkit.swift /* DevHelperToolkit.swift in Sources */,
+				__src_cc_ref_Sources/DevHelperToolkit/main.swift /* main.swift in Sources */,
+				__src_cc_ref_Sources/DevHelperToolkit/ToolkitOptions.swift /* ToolkitOptions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_FoundationExtensions /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Sources/FoundationExtensions/String+Extension.swift" /* String+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_ImageHelperToolkit /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/ImageHelperToolkit/Configuration.swift /* Configuration.swift in Sources */,
+				__src_cc_ref_Sources/ImageHelperToolkit/ImageHelperToolkit.swift /* ImageHelperToolkit.swift in Sources */,
+				"__src_cc_ref_Sources/ImageHelperToolkit/URL+Extension.swift" /* URL+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_ImageHelperToolkitTests /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Tests/ImageHelperToolkitTests/ImageHelpertToolkitTests.swift /* ImageHelpertToolkitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_JSONHelperToolkit /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Sources/JSONHelperToolkit/Array+Extension.swift" /* Array+Extension.swift in Sources */,
+				__src_cc_ref_Sources/JSONHelperToolkit/Configuration.swift /* Configuration.swift in Sources */,
+				"__src_cc_ref_Sources/JSONHelperToolkit/Dictionary+Conversion.swift" /* Dictionary+Conversion.swift in Sources */,
+				"__src_cc_ref_Sources/JSONHelperToolkit/Foundation+Types.swift" /* Foundation+Types.swift in Sources */,
+				__src_cc_ref_Sources/JSONHelperToolkit/JSONHelperToolkit.swift /* JSONHelperToolkit.swift in Sources */,
+				__src_cc_ref_Sources/JSONHelperToolkit/ModelDefinition.swift /* ModelDefinition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_JSONHelperToolkitTests /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Tests/JSONHelperToolkitTests/JSONHelperToolkitTests.swift /* JSONHelperToolkitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_StoryboardHelperToolkit /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/StoryboardHelperToolkit/Configuration.swift /* Configuration.swift in Sources */,
+				__src_cc_ref_Sources/StoryboardHelperToolkit/Storyboard.swift /* Storyboard.swift in Sources */,
+				__src_cc_ref_Sources/StoryboardHelperToolkit/StoryboardHelperToolkit.swift /* StoryboardHelperToolkit.swift in Sources */,
+				__src_cc_ref_Sources/StoryboardHelperToolkit/StoryboardParser.swift /* StoryboardParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_StoryboardHelperToolkitTests /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Tests/StoryboardHelperToolkitTests/StoryboardHelperToolkitTests.swift /* StoryboardHelperToolkitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_ColorHelperToolkit /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_ColorHelperToolkit" /* ColorHelperToolkit */;
+			targetProxy = 35A175EE1DAD2B8F0042FEC2 /* PBXContainerItemProxy */;
+		};
+		__Dependency_FoundationExtensions /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_FoundationExtensions" /* FoundationExtensions */;
+			targetProxy = 35A175F11DAD2B8F0042FEC2 /* PBXContainerItemProxy */;
+		};
+		__Dependency_ImageHelperToolkit /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_ImageHelperToolkit" /* ImageHelperToolkit */;
+			targetProxy = 35A175EF1DAD2B8F0042FEC2 /* PBXContainerItemProxy */;
+		};
+		__Dependency_JSONHelperToolkit /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_JSONHelperToolkit" /* JSONHelperToolkit */;
+			targetProxy = 35A175ED1DAD2B8F0042FEC2 /* PBXContainerItemProxy */;
+		};
+		__Dependency_StoryboardHelperToolkit /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_StoryboardHelperToolkit" /* StoryboardHelperToolkit */;
+			targetProxy = 35A175F01DAD2B8F0042FEC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_ColorHelperToolkit /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/ColorHelperToolkit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = ColorHelperToolkit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_ColorHelperToolkitTests /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/ColorHelperToolkitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_DevHelperToolkit /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\" \"@executable_path\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_FoundationExtensions /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/FoundationExtensions_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = FoundationExtensions;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_ImageHelperToolkit /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/ImageHelperToolkit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = ImageHelperToolkit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_ImageHelperToolkitTests /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/ImageHelperToolkitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_JSONHelperToolkit /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/JSONHelperToolkit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = JSONHelperToolkit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_JSONHelperToolkitTests /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/JSONHelperToolkitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_StoryboardHelperToolkit /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/StoryboardHelperToolkit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = StoryboardHelperToolkit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_StoryboardHelperToolkitTests /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/StoryboardHelperToolkitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		"___DebugConf_ColorHelperToolkit" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/ColorHelperToolkit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = ColorHelperToolkit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_ColorHelperToolkitTests" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/ColorHelperToolkitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_DevHelperToolkit" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\" \"@executable_path\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_FoundationExtensions" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/FoundationExtensions_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = FoundationExtensions;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_ImageHelperToolkit" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/ImageHelperToolkit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = ImageHelperToolkit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_ImageHelperToolkitTests" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/ImageHelperToolkitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_JSONHelperToolkit" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/JSONHelperToolkit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = JSONHelperToolkit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_JSONHelperToolkitTests" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/JSONHelperToolkitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_StoryboardHelperToolkit" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/StoryboardHelperToolkit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "\"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx\"";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				PRODUCT_BUNDLE_IDENTIFIER = StoryboardHelperToolkit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_StoryboardHelperToolkitTests" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DevHelperToolkit.xcodeproj/StoryboardHelperToolkitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "\"$(inherited)\"";
+				OTHER_SWIFT_FLAGS = "\"$(inherited)\"";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_DevHelperToolkit.xcodeproj/Configs/Release.xcconfig /* DevHelperToolkit.xcodeproj/Configs/Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_DevHelperToolkit.xcodeproj/Configs/Debug.xcconfig /* DevHelperToolkit.xcodeproj/Configs/Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "DevHelperToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_ColorHelperToolkit" /* Build configuration list for PBXNativeTarget "ColorHelperToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_ColorHelperToolkit" /* Debug */,
+				_ReleaseConf_ColorHelperToolkit /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_ColorHelperToolkitTests" /* Build configuration list for PBXNativeTarget "ColorHelperToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_ColorHelperToolkitTests" /* Debug */,
+				_ReleaseConf_ColorHelperToolkitTests /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_DevHelperToolkit" /* Build configuration list for PBXNativeTarget "DevHelperToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_DevHelperToolkit" /* Debug */,
+				_ReleaseConf_DevHelperToolkit /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_FoundationExtensions" /* Build configuration list for PBXNativeTarget "FoundationExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_FoundationExtensions" /* Debug */,
+				_ReleaseConf_FoundationExtensions /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_ImageHelperToolkit" /* Build configuration list for PBXNativeTarget "ImageHelperToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_ImageHelperToolkit" /* Debug */,
+				_ReleaseConf_ImageHelperToolkit /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_ImageHelperToolkitTests" /* Build configuration list for PBXNativeTarget "ImageHelperToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_ImageHelperToolkitTests" /* Debug */,
+				_ReleaseConf_ImageHelperToolkitTests /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_JSONHelperToolkit" /* Build configuration list for PBXNativeTarget "JSONHelperToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_JSONHelperToolkit" /* Debug */,
+				_ReleaseConf_JSONHelperToolkit /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_JSONHelperToolkitTests" /* Build configuration list for PBXNativeTarget "JSONHelperToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_JSONHelperToolkitTests" /* Debug */,
+				_ReleaseConf_JSONHelperToolkitTests /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_StoryboardHelperToolkit" /* Build configuration list for PBXNativeTarget "StoryboardHelperToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_StoryboardHelperToolkit" /* Debug */,
+				_ReleaseConf_StoryboardHelperToolkit /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_StoryboardHelperToolkitTests" /* Build configuration list for PBXNativeTarget "StoryboardHelperToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_StoryboardHelperToolkitTests" /* Debug */,
+				_ReleaseConf_StoryboardHelperToolkitTests /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}
