@@ -6,6 +6,9 @@ enum ProjectTokenType {
     case comment
     case openingCurlyBrace
     case closingCurlyBrace
+    case openingParentheses
+    case closingParentheses
+    case comma
 }
 
 struct ProjectToken {

@@ -18,15 +18,12 @@ struct ProjectTokenizer {
     }
     
     private static func tokenize(_ string: String, from startIndex: Int) -> [ProjectToken] {
-        print("Total: \(string.characters.count)")
-        
         var results = [ProjectToken]()
         while true {
             let startIndex = results.isEmpty ? 0 : (results.last?.endIndex ?? 0)
             guard let token = string.nextToken(startIndex) else {
                 break
             }
-            print(token)
             results.append(token)
         }
         return results
@@ -46,10 +43,16 @@ private extension String {
             return ProjectToken(type: .assign, value: character, startIndex: index, endIndex: index + 1)
         case ";":
             return ProjectToken(type: .deliminator, value: character, startIndex: index, endIndex: index + 1)
+        case ",":
+            return ProjectToken(type: .comma, value: character, startIndex: index, endIndex: index + 1)
         case "{":
             return ProjectToken(type: .openingCurlyBrace, value: character, startIndex: index, endIndex: index + 1)
         case "}":
             return ProjectToken(type: .closingCurlyBrace, value: character, startIndex: index, endIndex: index + 1)
+        case "(":
+            return ProjectToken(type: .openingParentheses, value: character, startIndex: index, endIndex: index + 1)
+        case ")":
+            return ProjectToken(type: .closingParentheses, value: character, startIndex: index, endIndex: index + 1)
         case " ", "\t", "\r", "\n":
             for endIndex in (index+1)..<characters.count {
                 let startNext = self.index(startIndex, offsetBy: endIndex)
