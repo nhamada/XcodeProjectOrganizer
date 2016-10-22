@@ -6,7 +6,7 @@
 //
 //
 
-struct ContainerItemProxy {
+public struct ContainerItemProxy {
     public var section: Section {
         return .containerItemProxy
     }

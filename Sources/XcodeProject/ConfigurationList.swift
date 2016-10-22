@@ -6,7 +6,7 @@
 //
 //
 
-struct ConfigurationList {
+public struct ConfigurationList {
     public var section: Section {
         return .configurationList
     }

@@ -6,7 +6,7 @@
 //
 //
 
-struct BuildConfiguration {
+public struct BuildConfiguration {
     public var section: Section {
         return .buildConfiguration
     }

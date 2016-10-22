@@ -6,7 +6,7 @@
 //
 //
 
-struct FrameworksBuildPhase {
+public struct FrameworksBuildPhase {
     public var section: Section {
         return .frameworksBuildPhase
     }

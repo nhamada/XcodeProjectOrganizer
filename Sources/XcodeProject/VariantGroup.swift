@@ -6,7 +6,7 @@
 //
 //
 
-struct VariantGroup {
+public struct VariantGroup {
     public var section: Section {
         return .variantGroup
     }

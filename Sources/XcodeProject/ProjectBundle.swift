@@ -1,12 +1,12 @@
 //
-//  XcodeProject.swift
+//  ProjectBundle.swift
 //  XcodeProjectOrganizer
 //
 //  Created by Naohiro Hamada on 2016/10/03.
 //
 //
 
-struct XcodeProject {
+public struct ProjectBundle {
     public let archiveVersion: Int
     public let classes: [String:Any]
     public let objectVersion: Int

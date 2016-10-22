@@ -6,7 +6,7 @@
 //
 //
 
-struct BuildFile {
+public struct BuildFile {
     public var section: Section {
         return .buildFile
     }

@@ -6,7 +6,7 @@
 //
 //
 
-struct NativeTarget {
+public struct NativeTarget {
     public var section: Section {
         return .nativeTarget
     }

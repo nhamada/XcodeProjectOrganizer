@@ -6,7 +6,7 @@
 //
 //
 
-struct TargetDependency {
+public struct TargetDependency {
     public var section: Section {
         return .targetDependency
     }

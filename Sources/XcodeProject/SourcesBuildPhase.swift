@@ -6,7 +6,7 @@
 //
 //
 
-struct SourcesBuildPhase {
+public struct SourcesBuildPhase {
     public var section: Section {
         return .sourcesBuildPhase
     }

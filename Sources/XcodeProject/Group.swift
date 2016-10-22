@@ -6,7 +6,7 @@
 //
 //
 
-struct Group {
+public struct Group {
     public var section: Section {
         return .group
     }

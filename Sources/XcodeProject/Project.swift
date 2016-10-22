@@ -6,7 +6,7 @@
 //
 //
 
-struct Project {
+public struct Project {
     public var section: Section {
         return .project
     }
@@ -25,14 +25,14 @@ struct Project {
     public let targets: [String]
 }
 
-struct ProjectAttribute {
+public struct ProjectAttribute {
     public let lastSwiftUpdateCheck: String
     public let lastUpgradeCheck: String
     public let organizationName: String
     public let targetAttributes: TargetAttribute
 }
 
-struct TargetAttribute {
+public struct TargetAttribute {
     public let identifier: String
     public let createdOnToolsVersion: String
     public let provisioningStyle: String

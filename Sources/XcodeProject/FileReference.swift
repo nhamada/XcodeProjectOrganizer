@@ -6,7 +6,7 @@
 //
 //
 
-struct FileReference {
+public struct FileReference {
     public var section: Section {
         return .fileReference
     }
